@@ -4,5 +4,4 @@ Movie Recommender System Using NLP Dynamic model selection between Bert Pre Trai
 Save model in pickel file using the notebook and then run command 
 ```
 streamlit run app 
-
 ```
