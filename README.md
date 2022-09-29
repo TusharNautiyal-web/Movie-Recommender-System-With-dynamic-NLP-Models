@@ -3,7 +3,7 @@ Content Based Movie Recommender System Using NLP Dynamic model selection between
 
 This movie recommender was created to better understand each and every NLP model based recommendation working and effective ness based on multiple paramenters.
 For each movie you can also enter a review on which a Sentiment Analysis model will work and tell if your review was a good or bad one. 
-
+Sometimes if not able to find movie recommendation just try to refresh and do it again one more time or change the name to a similar name of a moive.
 If you like this repository do star it.
 # How to Use
 Models are loaded using cloud pickle and **session states** are used to stop model from getting downloaded again and again this increases loading speed and loading times. App is created using **streamlit**. Below is a quick demonstration of how it works.
