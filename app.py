@@ -80,6 +80,23 @@ def recommend(movie,model):
 
 def main():
     st.set_page_config(layout="wide")
+    html_footer = """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        margin: 0px, 0px, 0px, 0px;
+        text-align: center;
+        width: 99%;
+    }
+    </style>
+    <div class = 'footer'>
+    <p>Copyright(c)Tushar Nautiyal 2022</p>
+    </div>
+    
+    """
+    st.markdown(html_footer,unsafe_allow_html=True)
     hide_footer_style = """
     <style>
     .css-2ykyy6 { 
