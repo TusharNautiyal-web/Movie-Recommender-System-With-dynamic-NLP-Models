@@ -33,14 +33,27 @@ Try to write review with more words for better sentiment analysis recommender 20
 
 **TF-IDF** is a term frequency-inverse document frequency. It helps to calculate the importance of a given word relative to other words in the document and in the corpus. It calculates in two quantities, TF and IDF. Combining two will give a TF-IDF score.
 
-Calculate the TF-IDF vector for each word in corpus. Let’s call the TF-IDF vectors as tf1, tf2, tf3, ... and so on. After that we can Calculate the **Word2Vec** for each word in the description lets call it as W2V1,W2V2,W2V3..........and so on.
-Multiply the TF-IDF score and Word2Vec vector representation of each word and sum all of it.
-Then divide the total by sum of TF-IDF vectors.These will be our new vectors that we will use for our cosine similarity to create a recommender model.
+Calculate the TF-IDF vector for each word in corpus. Let’s call the **TF-IDF** vectors as ***tf1, tf2, tf3, ... and so on*** till n. 
+
+![chart](https://user-images.githubusercontent.com/74553737/193222385-02e7c10d-2589-4539-a981-3bb398fc4d38.png)
+
+After that we can Calculate the **Word2Vec** for each word in the description lets call it as ***W2V1,W2V2,W2V3..........and so on*** till n.
+
+![chart](https://user-images.githubusercontent.com/74553737/193222528-e04ef47b-5725-4ee9-a4da-8a6ff72bd64c.png)
+
+
+**Multiply** the ***TF-IDF*** score and ***Word2Vec vector*** representation of each word and **sum** all of it.
+
+![chart](https://user-images.githubusercontent.com/74553737/193222659-aba7160d-db53-4b45-9915-a13608b8c254.png)
+
+
+Then **divide** the total by sum of TF-IDF vectors.These will be our new vectors that we will use for our cosine similarity to create a recommender model.
+
 Considering each word with i and total words as n. **The Complete Formula will be**
 
 ![chart](https://user-images.githubusercontent.com/74553737/193220196-d32d1ac3-3aae-40b5-a1c4-a52cd1b27a4d.png)
 
-/ This sign means divide and this Formula image was created using automurl.net. For more detailed understanding on tf-idf+word2vec follow me on medium where i have posted a full article on it. <a href = 'https://medium.com/@tsa.vevo.music'><img src = 'https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white'/></a>
+/ This sign means divide and this Formula image was created using atomurl.net. For more detailed understanding on ***tf-idf+word2vec*** ***Follow me on medium*** where i have posted a full article on it. <a href = 'https://medium.com/@tsa.vevo.music'><img src = 'https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white'/></a>
 
 # Updates
 This project is deployed on hugging face spaces here is the link for the deployed applications <a href = 'https://huggingface.co/spaces/TusharNautiyal/Dynamic-Movie-Recommender-With-Sentiment-Analysis'/>***Check Deployment***</a>
