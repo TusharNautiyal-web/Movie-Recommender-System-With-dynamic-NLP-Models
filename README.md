@@ -1,9 +1,9 @@
-# Dynamic NLP Model Movie-Recommender-system With Sentiment Analysis
-<a class="github-button" href="https://github.com/TusharNautiyal-web" aria-label="Follow @TusharNautiyal-web on GitHub">Follow @TusharNautiyal-web</a>
+# Dynamic NLP Model Movie-Recommender-system With Sentiment Analysis  
+<a href = 'https://huggingface.co/spaces/TusharNautiyal/Dynamic-Movie-Recommender-With-Sentiment-Analysis'/>***Check Deployment***</a>
+
+<a href="https://www.linkedin.com/in/tusharnautiyal/"> <img src = "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <img src = "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> <img src = "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white"/> 
+
 Content Based Movie Recommender System Using NLP Dynamic model selection between Bert Pre Trained Model , Bag of Words, TF-IDF, Word2Vec, And TF-IDF+Word2Vec on TMDB Dataset.
-<a href="https://www.linkedin.com/in/tusharnautiyal/">
-        <img src="https://img.shields.io/linkedin/follow/shields_io?style=social&logo=linkedin"
-            alt="Connect on Linkedin"></a>
 This movie recommender was created to better understand each and every NLP model based recommendation working and effective ness based on multiple paramenters.
 For each movie you can also enter a review on which a Sentiment Analysis model will work and tell if your review was a good or bad one. 
 Sometimes if not able to find movie recommendation just try to refresh and do it again one more time or change the name to a similar name of a moive.
@@ -30,5 +30,4 @@ https://user-images.githubusercontent.com/74553737/193136299-185453fa-3235-49a3-
 Try to write review with more words for better sentiment analysis recommender 20-50 words. We have trained model on **random forest** as it was giving good accuracy and **Tf-idf** vecotrizer for  sentiment analysis model. For more you can check the notebook.
 
 # Updates
-Going to upload this whole app on **hugging face Spaces** and will be deployed with full **CI/CD** and **Dockers**. 
-Please Do support the repository if you liked it. Thank you Happy Learning
+This project is deployed on hugging face spaces here is the link for the deployed applications <a href = 'https://huggingface.co/spaces/TusharNautiyal/Dynamic-Movie-Recommender-With-Sentiment-Analysis'/>***Check Deployment***</a>
