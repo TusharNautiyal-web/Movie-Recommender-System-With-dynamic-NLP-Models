@@ -1,6 +1,9 @@
 # Dynamic NLP Model Movie-Recommender-system With Sentiment Analysis
+<a class="github-button" href="https://github.com/TusharNautiyal-web" aria-label="Follow @TusharNautiyal-web on GitHub">Follow @TusharNautiyal-web</a>
 Content Based Movie Recommender System Using NLP Dynamic model selection between Bert Pre Trained Model , Bag of Words, TF-IDF, Word2Vec, And TF-IDF+Word2Vec on TMDB Dataset.
-
+<a href="https://www.linkedin.com/in/tusharnautiyal/">
+        <img src="https://img.shields.io/linkedin/follow/shields_io?style=social&logo=linkedin"
+            alt="Connect on Linkedin"></a>
 This movie recommender was created to better understand each and every NLP model based recommendation working and effective ness based on multiple paramenters.
 For each movie you can also enter a review on which a Sentiment Analysis model will work and tell if your review was a good or bad one. 
 Sometimes if not able to find movie recommendation just try to refresh and do it again one more time or change the name to a similar name of a moive.
